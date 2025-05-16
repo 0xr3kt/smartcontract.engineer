@@ -7,5 +7,6 @@ contract Function {
     }
 }
 
-// Note: not put a value that y > x. For evite "bug", put, require(x >= y, "Underflow error"); 
+// Note: not put a value that y > x. For evite "bug", put, require(x >= y, "Underflow error");
+// specifically there is a revert: "underflow error".
 // Thx for reading!
